@@ -8,7 +8,7 @@ const SpecialOffer = ({ className }: { className?: string }) => {
   return (
     <section
       className={cn(
-        "max-w-[1440px] centered-flex gap-10 max-xl:flex-col-reverse",
+        " centered-flex gap-10 max-xl:flex-col-reverse",
         className
       )}
     >

@@ -7,7 +7,7 @@ const SuperQuality = ({ className }: { className?: string }) => {
     <section
       id="about-us"
       className={cn(
-        "max-container flex w-full items-center justify-between gap-10 max-lg:flex-col",
+        " flex w-full items-center justify-between gap-10 max-lg:flex-col",
         className
       )}
     >

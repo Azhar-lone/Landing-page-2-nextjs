@@ -7,7 +7,7 @@ const PopularProducts = ({ className }: { className?: string }) => {
   return (
     <section
       id="products"
-      className={cn("max-w-[1440px] max-sm:mt-12", className)}
+      className={cn(" max-sm:mt-12", className)}
     >
       <div className="flex flex-col justify-start gap-5">
         <h2 className="font-palanquin text-4xl font-bold">

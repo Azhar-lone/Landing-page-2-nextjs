@@ -6,7 +6,7 @@ const Subscribe = ({ className }: { className?: string }) => {
     <section
       id="contact-us"
       className={cn(
-        "max-container flex items-center justify-between gap-10 max-lg:flex-col",
+        " flex items-center justify-between gap-10 max-lg:flex-col",
         className
       )}
     >

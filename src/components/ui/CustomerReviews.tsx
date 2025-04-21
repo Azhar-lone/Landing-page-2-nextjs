@@ -4,7 +4,7 @@ import ReviewCard from "./ReviewCard";
 import { cn } from "@/lib/utils";
 const CustomerReviews = ({ className }: { className?: string }) => {
   return (
-    <section className={cn("max-w-[1440px]", className)}>
+    <section className={cn(className)}>
       <h3 className="text-center font-palanquin text-4xl font-bold">
         What our <span className="text-coral-red"> Customers </span>
         Say?

@@ -6,7 +6,7 @@ const Services = ({ className }: { className?: string }) => {
   return (
     <section
       className={cn(
-        "max-w-[1440px] flex flex-wrap justify-center gap-9",
+        " flex flex-wrap justify-center gap-9",
         className
       )}
     >

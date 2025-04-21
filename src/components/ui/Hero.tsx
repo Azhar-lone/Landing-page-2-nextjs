@@ -19,7 +19,7 @@ const Hero = ({ className }: { className?: string }) => {
     <section
       id="home"
       className={cn(
-        "max-w-[1440px] flex min-h-screen w-full flex-col justify-center gap-10 xl:flex-row",
+        " flex min-h-screen w-full flex-col justify-center gap-10 xl:flex-row",
         className
       )}
     >

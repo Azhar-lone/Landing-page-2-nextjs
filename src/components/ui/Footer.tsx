@@ -7,7 +7,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="max-w-[1440px] p-6">
+    <footer className="p-6">
       <div className="ma-lg:flex-col flex flex-wrap items-start justify-between gap-20">
         <div className="flex flex-col items-start">
           <Link href="/">
@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="mt-8 flex items-center gap-5">
             {socialMedia.map(({ Icon }, index) => (
               <div key={index} className=" p-4 rounded-full bg-slate-200 ">
-                <Icon width={24} height={24} color="black"/>
+                <Icon width={24} height={24} color="black" />
               </div>
             ))}
           </div>

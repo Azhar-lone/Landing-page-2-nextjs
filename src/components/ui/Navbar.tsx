@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const Navbar = ({ className }: { className?: string }) => {
   return (
     <header className={cn(" p-10 absolute z-50 w-full py-8 ", className)}>
-      <nav className="max-w-[1440px] flex items-center justify-between">
+      <nav className=" flex items-center justify-between">
         <Link href={"/"}>
           <svg
             aria-hidden="true"
