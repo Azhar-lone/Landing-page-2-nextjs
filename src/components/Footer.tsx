@@ -1,5 +1,4 @@
 import { footerLinks, socialMedia } from "@/constants";
-import { footerLogo } from "#/public/images/index";
 import { CopyrightIcon } from "lucide-react";
 
 import Image from "next/image";
@@ -8,23 +7,25 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="max-container">
+    <footer className="max-w-[1440px] p-6">
       <div className="ma-lg:flex-col flex flex-wrap items-start justify-between gap-20">
         <div className="flex flex-col items-start">
           <Link href="/">
-            <Image src={footerLogo} width={150} height={46} alt="logo footer" />
+            <Image
+              src={"/images/footer-logo.svg"}
+              width={150}
+              height={46}
+              alt="logo footer"
+            />
           </Link>
           <p className="mt-6 font-montserrat text-base leading-7 text-white-400 sm:max-w-sm">
             Get shoes ready for the new term at your nearest Nike Store. Find
             your best shoes in store. Get rewards.
           </p>
           <div className="mt-8 flex items-center gap-5">
-            {socialMedia.map((icon) => (
-              <div
-                key={icon.alt}
-                className="centered-flex size-12 rounded-full bg-white"
-              >
-                <CopyrightIcon width={24} height={24} />
+            {socialMedia.map(({ Icon }, index) => (
+              <div key={index} className=" p-4 rounded-full bg-slate-200 ">
+                <Icon width={24} height={24} color="black"/>
               </div>
             ))}
           </div>

@@ -2,12 +2,12 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import PopularProducts from "@/components/PopularProducts";
 import SuperQuality from "@/components/SuperQuality";
-// import Services from "@/components/Services";
-
+import Services from "@/components/Services";
+import SpecialOffer from "@/components/SpecialOffer";
 // import CustomerReviews from "@/components/CustomerReviews";
-// import Footer from "@/components/Footer";
-// import SpecialOffer from "@/components/SpecialOffer";
-// import Subscribe from "@/components/Subscribe";
+import Subscribe from "@/components/Subscribe";
+
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -16,11 +16,11 @@ const Home = () => {
       <Hero className="py-4 px-10" />
       <PopularProducts className="py-4 px-10" />
       <SuperQuality className="py-4 px-10" />
-      {/* <Services /> */}
-      {/*<SpecialOffer />
-      <CustomerReviews />
-      <Subscribe />
-      <Footer /> */}
+      <Services className="py-4 px-10" />
+      <SpecialOffer className="py-4 px-10" />
+      {/* <CustomerReviews className="py-4 px-10" /> */}
+      <Subscribe className="py-4 px-10"/>
+      <Footer />
     </main>
   );
 };

@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { StaticImport } from "next/dist/shared/lib/get-img-props";
 import React from "react";
 import { cn } from "@/lib/utils";
 type ShoeCardProps = {

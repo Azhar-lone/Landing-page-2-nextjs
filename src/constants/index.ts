@@ -65,18 +65,18 @@ export const products = [
 
 export const services = [
   {
-    imgURL: TruckElectricIcon,
+    Icon: TruckElectricIcon,
     label: "Free shipping",
     subtext: "Enjoy seamless shopping with our complimentary shipping service.",
   },
   {
-    imgURL: ShieldCheckIcon,
+    Icon: ShieldCheckIcon,
     label: "Secure Payment",
     subtext:
       "Experience worry-free transactions with our secure payment options.",
   },
   {
-    imgURL: HelpCircleIcon,
+    Icon: HelpCircleIcon,
     label: "Love to help you",
     subtext: "Our dedicated team is here to assist you every step of the way.",
   },
@@ -84,14 +84,14 @@ export const services = [
 
 export const reviews = [
   {
-    imgURL: "/images/customer1.jpeg",
+    imgURL: "/images/customer.jpg",
     customerName: "Morich Brown",
     rating: 4.5,
     feedback:
       "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
   },
   {
-    imgURL: "/images/customer2.svg",
+    imgURL: "/images/customer.jpg",
     customerName: "Lota Mongeskar",
     rating: 4.5,
     feedback:
@@ -103,12 +103,12 @@ export const footerLinks = [
   {
     title: "Products",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "link 1", link: "/" },
+      { name: "Test Link 2", link: "/" },
+      { name: "Test Link 3", link: "/" },
+      { name: "This is link 4", link: "/" },
+      { name: "Link 5", link: "/" },
+      { name: "Another link", link: "/" },
     ],
   },
   {
@@ -124,14 +124,14 @@ export const footerLinks = [
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "customer@test.com", link: "mailto:customer@test.com" },
+      { name: "+12345678901", link: "tel:+12345678901" },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: FacebookIcon, alt: "facebook logo" },
-  { src: TwitterIcon, alt: "twitter logo" },
-  { src: InstagramIcon, alt: "instagram logo" },
+  { Icon: FacebookIcon },
+  { Icon: TwitterIcon },
+  { Icon: InstagramIcon },
 ];

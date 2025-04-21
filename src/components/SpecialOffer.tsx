@@ -1,23 +1,28 @@
 import React from "react";
 import Button from "./Button";
 import Image from "next/image";
-import { offer } from "../../public/images";
 import { ArrowRightIcon } from "lucide-react";
+import { cn } from "@/lib/utils";
 
-const SpecialOffer = () => {
+const SpecialOffer = ({ className }: { className?: string }) => {
   return (
-    <section className="max-container centered-flex gap-10 max-xl:flex-col-reverse">
+    <section
+      className={cn(
+        "max-w-[1440px] centered-flex gap-10 max-xl:flex-col-reverse",
+        className
+      )}
+    >
       <div className="flex flex-1">
         <Image
-          src={offer}
+          src={"/images/offer.jpg"}
           alt="Offer"
           width={773}
           height={687}
-          className="w-full object-contain"
+          className="w-full object-contain border"
         />
       </div>
 
-      <div className="flex flex-1 flex-col">
+      <div className="flex flex-1 flex-col py-5">
         <h2 className="font-palanquin text-4xl font-bold capitalize lg:max-w-lg">
           <span className="text-coral-red">Special </span> Offer
         </h2>
@@ -31,13 +36,13 @@ const SpecialOffer = () => {
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional.
         </p>
-        <div className="mt-11 flex flex-wrap gap-4">
-          <Button>
+        <div className="mt-11 flex flex-wrap gap-4 ">
+          <Button className="items-center flex">
             Shop Now
             <ArrowRightIcon />
           </Button>
 
-          <Button classNames="bg-white border-slate-gray text-slate-gray">
+          <Button className=" text-black bg-white flex items-center ">
             Learn More
             <ArrowRightIcon />
           </Button>
