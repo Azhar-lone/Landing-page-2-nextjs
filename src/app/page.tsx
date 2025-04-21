@@ -4,7 +4,7 @@ import PopularProducts from "@/components/ui/PopularProducts";
 import SuperQuality from "@/components/ui/SuperQuality";
 import Services from "@/components/ui/Services";
 import SpecialOffer from "@/components/ui/SpecialOffer";
-import CustomerReviews from "@/components/ui/CustomerReviews";
+// import CustomerReviews from "@/components/ui/CustomerReviews";
 import Subscribe from "@/components/ui/Subscribe";
 
 import Footer from "@/components/ui/Footer";
@@ -19,7 +19,7 @@ const Home = () => {
       <SuperQuality className="py-4 px-10" />
       <Services className="py-4 px-10" />
       <SpecialOffer className="py-4 px-10" />
-      <CustomerReviews className="py-4 px-10" />
+      {/* <CustomerReviews className="py-4 px-10" /> */}
       <Subscribe className="py-4 px-10" />
       <Footer />
     </main>
